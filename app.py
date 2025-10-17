@@ -22,7 +22,6 @@ if uploaded_file:
         from PIL import Image
         image = Image.open(uploaded_file)
         extracted_text = ocr_image_pil(image)
-#hi how are you
 
     #name is umer yasin
 #hello
