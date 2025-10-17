@@ -22,7 +22,7 @@ if uploaded_file:
         from PIL import Image
         image = Image.open(uploaded_file)
         extracted_text = ocr_image_pil(image)
-
+#hi how are you
     st.subheader("Extracted text")
     st.text_area("Document text", value=extracted_text[:10000], height=250)
 
