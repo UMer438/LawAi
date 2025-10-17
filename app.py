@@ -27,7 +27,7 @@ if uploaded_file:
     #name is umer yasin
 #hello
 
-
+#nice
 
     st.subheader("Extracted text")
     st.text_area("Document text", value=extracted_text[:10000], height=250)
