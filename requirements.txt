@@ -1,0 +1,7 @@
+streamlit
+pillow
+pytesseract
+pypdf2
+openai
+transformers
+torch
